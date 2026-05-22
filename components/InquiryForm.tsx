@@ -59,7 +59,7 @@ export default function InquiryForm() {
 
   if (status === "success") {
     return (
-      <section id="contact" className="py-20 md:py-32 bg-brand-cream">
+      <section id="contact" className="pt-20 pb-16 md:pt-32 md:pb-20 bg-brand-cream">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 text-center">
           <div className="w-8 h-0.5 bg-brand-rose mx-auto mb-8" />
           <h2 className="font-heading text-2xl font-semibold text-brand-charcoal mb-4">
@@ -74,7 +74,7 @@ export default function InquiryForm() {
   }
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-brand-cream">
+    <section id="contact" className="pt-20 pb-16 md:pt-32 md:pb-20 bg-brand-cream">
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
 
         {/* Header */}
@@ -82,7 +82,7 @@ export default function InquiryForm() {
           <p className="font-body text-brand-rose text-xs font-medium tracking-[0.2em] uppercase mb-4">
             Get in Touch
           </p>
-          <h2 className="font-heading text-3xl md:text-4xl font-semibold text-brand-charcoal mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold text-brand-charcoal mb-4 text-balance">
             {inquiry.heading}
           </h2>
           <p className="font-body text-brand-charcoal/55 leading-relaxed max-w-lg mx-auto">

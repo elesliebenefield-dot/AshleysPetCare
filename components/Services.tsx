@@ -19,12 +19,12 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Cards — flex+wrap so partial last rows center instead of left-aligning */}
+        <div className="flex flex-wrap justify-center gap-6">
           {services.map((service) => (
             <div
               key={service.id}
-              className="group flex flex-col rounded-2xl overflow-hidden bg-brand-cream border border-brand-sage/15 hover:border-brand-rose/25 hover:shadow-md transition-all duration-300"
+              className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] group flex flex-col rounded-2xl overflow-hidden bg-brand-cream border border-brand-sage/15 hover:border-brand-rose/25 hover:shadow-md transition-all duration-300"
             >
               {/* Photo */}
               <div className="relative aspect-video overflow-hidden">
