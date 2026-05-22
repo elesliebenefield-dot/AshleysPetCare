@@ -1,0 +1,12 @@
+{
+  "cody-product-builder": {
+    "name": "Ashley's Pet Care",
+    "description": "Modern, mobile-first website for a pet sitting and dog walking business serving Lake Nona and Greater Orlando",
+    "version": "0.0.0",
+    "phase": "build",
+    "projectPath": "cody-projects/ashleys-pet-care",
+    "releaseNotesPath": "{{projectPath}}",
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-22"
+  }
+}

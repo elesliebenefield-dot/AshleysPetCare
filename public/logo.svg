@@ -1,0 +1,33 @@
+<svg viewBox="0 0 220 56" width="220" height="56" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Icon: paw-heart — 40x40, vertically centered in 56px canvas (y=8 to y=48) -->
+  <svg x="0" y="8" width="40" height="40" viewBox="0 0 32 32">
+    <path
+      d="M16 27 C14 25 3 20 3 13 C3 7.5 8 5 12 5 C14 5 15.2 6.5 16 8.5 C16.8 6.5 18 5 20 5 C24 5 29 7.5 29 13 C29 20 18 25 16 27 Z"
+      fill="#C97B84"
+    />
+    <circle cx="11.5" cy="14.5" r="2.2" fill="white"/>
+    <circle cx="16" cy="12.5" r="2.2" fill="white"/>
+    <circle cx="20.5" cy="14.5" r="2.2" fill="white"/>
+  </svg>
+
+  <!-- Wordmark -->
+  <text
+    x="52"
+    y="32"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="18"
+    font-weight="600"
+    fill="#2C2C2C"
+    letter-spacing="-0.3"
+  >Ashley's Pet Care</text>
+
+  <!-- Tagline -->
+  <text
+    x="52"
+    y="48"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="10"
+    fill="#8A9E85"
+    letter-spacing="2"
+  >FROM LEASH TO LOVE</text>
+</svg>
