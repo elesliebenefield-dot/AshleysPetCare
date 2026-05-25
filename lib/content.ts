@@ -21,12 +21,12 @@ export const about = {
   paragraphs: [
     "I'm a wife, a mom, a dog mom, and a lifelong animal lover who has called Central Florida home for almost three decades. I know this community because I'm part of it — I volunteer with Scouts of America and genuinely care about the neighbors I serve.",
     "Over the years I've built real experience with pets of all kinds and needs: senior dogs and cats, rescue animals still finding their footing, pets recovering from injuries or surgery, animals with mobility challenges, and the notoriously picky eaters who need a little extra patience (and sometimes hand feeding) before they'll touch their bowl.",
-    "I care for dogs, cats, puppies, and small companion animals — and whether your pet is perfectly healthy or needs specialized attention, they'll be treated like a member of my own family.",
+    "I care for dogs, cats, puppies, and kittens — and whether your pet is perfectly healthy or needs specialized attention, they'll be treated like a member of my own family.",
     "I'm also a registered Rover provider, so you can find additional reviews and background information there. But this site is where you can reach me directly — no middleman, just a real conversation about what your pet needs.",
   ],
   image: {
     primary: { src: "/images/ashley-headshot.jpg", alt: "Ashley, owner of Ashley's Pet Care" },
-    secondary: { src: "/images/ashley-family-with-dogs.jpg", alt: "Ashley with her family and dogs at a park" },
+    secondary: { src: "/images/ashley-with-dog-bw.jpg", alt: "Ashley resting alongside a dog, black and white photo" },
   },
 };
 
@@ -43,7 +43,7 @@ export const services = [
     title: "Pet Sitting",
     description:
       "In-home pet sitting means your pet stays in the comfort of their own space while you're away. No kennels, no strangers — just familiar surroundings and someone who genuinely cares.",
-    image: { src: "/images/dog-on-couch.jpg", alt: "Dog relaxing comfortably on a couch at home" },
+    image: { src: "/images/dog-by-fence.jpg", alt: "Black and brown dog resting by a wooden fence" },
   },
   {
     id: "drop-in-visits",
@@ -92,7 +92,7 @@ export const inquiry = {
     email: { label: "Email Address", placeholder: "jane@example.com" },
     phone: { label: "Phone Number", placeholder: "(555) 000-0000" },
     petName: { label: "Pet's Name", placeholder: "Buddy" },
-    petType: { label: "Type of Pet", placeholder: "Dog, cat, rabbit…" },
+    petType: { label: "Type of Pet", placeholder: "Dog, cat, puppy, kitten…" },
     service: { label: "Service Needed", placeholder: "Select a service" },
     message: { label: "Tell Me About Your Pet", placeholder: "Share anything helpful — age, breed, routine, special needs, or questions you have." },
   },

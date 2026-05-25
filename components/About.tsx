@@ -9,7 +9,7 @@ export default function About() {
 
           {/* Photos — mobile: above text; desktop: right column */}
           <div className="relative order-1 md:order-2">
-            {/* Primary: headshot */}
+            {/* Primary photo */}
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md">
               <Image
                 src={about.image.primary.src}
@@ -19,14 +19,14 @@ export default function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            {/* Secondary: family photo — bottom-left inset on desktop */}
-            <div className="hidden md:block absolute -bottom-8 -left-8 w-[44%] aspect-square rounded-xl overflow-hidden border-4 border-brand-cream shadow-lg">
+            {/* Accent photo — desktop only, small inset at bottom-left */}
+            <div className="hidden md:block absolute -bottom-6 -left-6 w-[32%] aspect-square rounded-xl overflow-hidden border-4 border-brand-cream shadow-lg">
               <Image
                 src={about.image.secondary.src}
                 alt={about.image.secondary.alt}
                 fill
-                className="object-cover object-top"
-                sizes="25vw"
+                className="object-cover object-center"
+                sizes="20vw"
               />
             </div>
           </div>
